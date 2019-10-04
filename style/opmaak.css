@@ -1,0 +1,128 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: crimson;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+h1 {
+  font-style: italic;
+  text-align : center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: MediumSpringGreen;
+}
+
+h2{
+  text-align: center;
+  color: white;
+}
+table.content th{
+  border: blue 3px ridge;
+}
+
+table.content td{
+  border: blue ridge;
+}
+table.content{
+  border: blue 5px ridge;
+  border-collapse: collapse;
+}
+
+h3{
+  color: white;
+  text-align: center;
+  margin-right: 150px;
+}
+
+.p{
+  text-align: center;
+  border: 5px double;
+  margin-left: 225px;
+  margin-right: 225px;
+  border-radius: 0px 0px 25px 25px;
+}
+
+#woord_meme{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-style: italic;
+  text-align : center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: blue;
+  border-radius: 25px 0px 25px 0px;
+  border: 20px ridge blue;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.hidden{
+  color: transparent;
+}
+p{
+  text-align: justify;
+  color: black;
+}
+.active{
+  background-color: lightblue;
+  width: 150px;
+  border: 1px solid OrangeRed;
+  border-radius: 25px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  float: left;
+  color: black;
+  font-size: 19px;
+}
+
+
+.active:hover{
+  background-color: red;
+}
+.laag{
+  margin-left:150px;
+}
+
+
+#container ul{
+  list-style:none;
+}
+
+#container ul li{
+  background-color: #6824834;
+  width: 150px;
+  border: 1px solid OrangeRed;
+  border-radius: 25px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  float: left;
+  color: black;
+  font-size: 19px;
+  position: relative;
+}
+
+#container ul li:hover{
+  background-color: blue;
+
+}
+
+#container ul ul{
+  display: none;
+}
+
+#container ul li:hover > ul{
+  display: block;
+}
+
+#container ul ul ul{
+  margin-left: 150px;
+  top: 0px;
+  position: absolute;
+}
