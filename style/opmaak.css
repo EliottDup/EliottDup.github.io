@@ -1,19 +1,58 @@
+html, body{
+  width: 100vw;
+  flex-wrap: wrap;
+}
+
+ul.reset{
+  margin:0;
+  padding: 0;
+  text-indent: 0;
+  list-style-type: 0;
+}
+
+.stonks{
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
 *{
   margin: 0px;
   padding: 0px;
 }
-
+.link {
+  text-decoration: none;
+  color: black;
+}
 body {
-  background-color: crimson;
+  font-family: sans-serif;
+  background-color: lightgrey;
   margin-left: 0px;
   margin-top: 0px;
 }
 
+ul{
+  margin:0;
+  padding: 0;
+  text-indent: 0;
+  list-style-type: 0;
+  border: .1em;
+  list-style:none;
+    padding: 1em;
+  border-radius:.5em;
+  display:flex;
+}
+
+.center{
+  text-align: center;
+}
+
 h1 {
   font-style: italic;
-  text-align : center;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: MediumSpringGreen;
+  text-align: left;
+  color: darkgreen;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 h2{
@@ -60,18 +99,15 @@ h3{
   margin-left: 500px;
   margin-right: 500px;
 }
-.link{
-text-decoration: none; 
-}
 
-.hidden{
-  color: transparent;
-}
+
 p{
   text-align: justify;
   color: black;
 }
+
 .active{
+  text-decoration: none;
   background-color: lightblue;
   width: 150px;
   border: 1px solid OrangeRed;
@@ -89,16 +125,20 @@ p{
   background-color: red;
 }
 .laag{
-  margin-left:150px;
+  margin-left:320px;
 }
 
+.plaatjesrij{
+  flex-direction: column;
+  flex-basis: 70%;
+}
 
 #container ul{
   list-style:none;
 }
 
 #container ul li{
-  background-color: #6824834;
+  background-color: darkgrey;
   width: 150px;
   border: 1px solid OrangeRed;
   border-radius: 25px;
@@ -112,7 +152,7 @@ p{
 }
 
 #container ul li:hover{
-  background-color: blue;
+  background-color: grey;
 
 }
 
