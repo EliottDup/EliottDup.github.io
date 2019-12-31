@@ -60,6 +60,9 @@ h3{
   margin-left: 500px;
   margin-right: 500px;
 }
+.link{
+text-decoration: none; 
+}
 
 .hidden{
   color: transparent;
