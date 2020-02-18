@@ -1,3 +1,11 @@
+.templates{
+  width: 50%;
+}
+
+.Memeplaatjes{
+  width: 80%;
+}
+
 html, body{
   width: 100vw;
   flex-wrap: wrap;
@@ -57,16 +65,19 @@ h2{
   text-align: center;
 }
 
-table.content th{
+table.templatecontent th{
   border: blue 3px ridge;
+  width: 50%;
 }
 
-table.content td{
+table.templatecontent td{
   border: blue ridge;
+  width: 50%;
 }
-table.content{
+table.templatecontent{
   border: blue 5px ridge;
   border-collapse: collapse;
+  width: 50%;
 }
 
 h3{
