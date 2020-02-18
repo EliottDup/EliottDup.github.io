@@ -1,5 +1,7 @@
-.templates{
-  width: 50%;
+@import url('https://fonts.googleapis.com/css?family=Raleway:500&display=swap');
+
+h1{
+  font-family: 'Raleway', sans-serif;
 }
 
 .Memeplaatjes{
