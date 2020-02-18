@@ -169,6 +169,10 @@ p{
   display: none;
 }
 
+#container ul li:active > ul{
+  display: block;
+}
+
 #container ul li:hover > ul{
   display: block;
 }
