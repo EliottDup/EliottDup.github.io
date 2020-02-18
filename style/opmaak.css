@@ -169,7 +169,7 @@ p{
   display: none;
 }
 
-#container ul li:active > ul{
+#container ul li:hover, #container ul li:active > ul{
   display: block;
 }
 
